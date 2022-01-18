@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.menu {
+  
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    list-style: none;
+  }
+
+  &__link {
+    color: #808080;
+    margin-left: 1.25rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    &:hover {
+      color: #080808;
+    }
+  }
+}
