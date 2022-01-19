@@ -1,0 +1,15 @@
+.banner {
+  width: 100%;
+  height: calc(50vh - 104px);
+  background: url('./../../images/banner.jpg') no-repeat;
+  background-size: cover;
+
+  &__title {
+    font-family: 'Pacifico', sans-serif;
+    font-size: 2.4rem;
+    color: #fff;
+    position: relative;
+    top: 45%;
+    text-align: center;
+  }
+}
