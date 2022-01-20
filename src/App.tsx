@@ -1,13 +1,15 @@
 import { Header } from './components/Header'
+import About from './modules/About'
 import { Banner } from './modules/Banner'
 import { Revenue } from './modules/Revenue'
 
 function App() {
   return (
     <>
-      <Header></Header>
-      <Banner></Banner>
-      <Revenue></Revenue>
+      <Header />
+      <Banner />
+      <Revenue />
+      <About />
     </>
   )
 }
