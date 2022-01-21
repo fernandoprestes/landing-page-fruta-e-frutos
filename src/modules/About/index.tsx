@@ -4,7 +4,7 @@ import ImgMarcela from './../../images/pessoas/marcela.jpg'
 import ImgAndreia from './../../images/pessoas/andreia.jpg'
 import style from './about.module.scss'
 
-const About = () => {
+export const About = () => {
   return (
     <section className={style.about}>
       <h2 className={style.about__title}>Quem somos</h2>
@@ -34,5 +34,3 @@ const About = () => {
     </section>
   )
 }
-
-export default About

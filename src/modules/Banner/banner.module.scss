@@ -5,11 +5,15 @@
   background-size: cover;
 
   &__title {
-    font-family: 'Pacifico', sans-serif;
-    font-size: 2.4rem;
-    color: #fff;
+    font-family: 'Pacifico', cursive;
+    color: #8d0606;
+    text-shadow: 2px 2px #f2f2f2;
     position: relative;
     top: 45%;
     text-align: center;
+
+    @media screen and (min-width: 768px) {
+      font-size: 2.4rem;
+    }
   }
 }

@@ -2,16 +2,21 @@
   padding: 2rem;
   &__title {
     font-size: 2.4rem;
-    font-family: 'Pacifico', sans-serif;
+    font-family: 'Pacifico', cursive;
   }
 
   &__subtitle {
     font-size: 1.8rem;
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     color: #595959;
+    margin: 1rem 0;
   }
 
   &__text {
+    font-weight: 1.75rem;
+    font-weight: 300;
+    color: #595959;
   }
 }
 
@@ -21,4 +26,7 @@
   flex-wrap: wrap;
   padding: 2rem;
   gap: 20px;
+  @media screen and (max-width: 768px) {
+    justify-content: center;
+  }
 }
