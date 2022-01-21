@@ -1,5 +1,6 @@
+import { Footer } from './components/Footer'
 import { Header } from './components/Header'
-import About from './modules/About'
+import { About } from './modules/About'
 import { Banner } from './modules/Banner'
 import { Revenue } from './modules/Revenue'
 
@@ -10,6 +11,7 @@ function App() {
       <Banner />
       <Revenue />
       <About />
+      <Footer />
     </>
   )
 }
